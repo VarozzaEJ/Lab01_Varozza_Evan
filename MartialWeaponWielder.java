@@ -7,4 +7,3 @@ public class MartialWeaponWielder extends Character {
         System.out.println("I wield martial weapons against monsters.");
     }
 }
-//ToString only prints the first two lines of each characters code block on pdf.
