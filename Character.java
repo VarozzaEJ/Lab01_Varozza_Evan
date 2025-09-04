@@ -1,3 +1,11 @@
+//NOTE Hierarchy goes     Character -------------------------\
+//                           |                                \
+//Martial Weapon Wielder           Simple Weapon Wielder      Wizard
+//      |              \                    |           \
+//  Medium Armor Wearer  Knight     Light Armor Wearer    Cleric
+//       |       \                        |
+//   Barbarian    Ranger              Rogue
+
 public class Character {
     protected int hitPoints, armorClass;
     protected String armorType, weaponType;
